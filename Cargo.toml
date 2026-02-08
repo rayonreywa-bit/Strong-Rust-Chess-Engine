@@ -1,0 +1,13 @@
+[package]
+name = "Crispy-Chess"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+macroquad = "0.3"
+cozy-chess = "0.3" 
+rust-embed = "8.2"
+async-std = { version = "1.12", features = ["unstable"] }
+rand = "0.8"
+byteorder = "1.4.3"
+rayon = "1.7"
