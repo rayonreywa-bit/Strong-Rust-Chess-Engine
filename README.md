@@ -14,3 +14,19 @@ Why CrispyCrab?
 🖱️ User-Friendly: A simple, interactive interface with smooth drag-and-drop moves. No complicated setups.
 
 ⏳ A Labor of Love: This project is the result of one year of dedicated (on-and-off) work to ensure the AI is smart and the experience is seamless.
+
+---🛠️ How to Build & Run---
+
+To compile and run the project locally:
+Ensure you have the latest version of Rust installed.
+The project uses the following key libraries (automatically handled by Cargo):
+
+macroquad, cozy-chess, rust-embed, async-std, rand, byteorder, rayon.
+
+Open your terminal in the project folder and run:
+code
+Bash
+
+cargo run --release
+
+💡 Pro Tip: Always use the --release flag. This compiles the code with optimizations, making the engine much faster and the gameplay perfectly smooth.
